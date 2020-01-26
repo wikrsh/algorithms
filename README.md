@@ -1,2 +1,2 @@
 # algorithms
-Collection of data structures and algorithms for competitive programming
+Copy-and-Paste friendly collection of data structures and algorithms for competitive programming
