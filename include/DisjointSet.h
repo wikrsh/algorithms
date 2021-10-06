@@ -21,7 +21,10 @@ public:
       swap(x, y);
     }
 
-    ranks_[findRoot(y)] += ranks_[findRoot(x)];
+    if (rank(y) == rank(x)) {
+      ranks_[findRoot(y)] += 1;
+    }
+
     roots_[findRoot(x)] = findRoot(y);
   }
 
